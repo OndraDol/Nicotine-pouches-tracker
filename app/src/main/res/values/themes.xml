@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.NicotineTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Zde můžeš upravit barvy, tmavý režim, atd. -->
+    </style>
+
+</resources>
