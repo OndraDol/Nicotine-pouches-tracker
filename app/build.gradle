@@ -39,6 +39,7 @@ android {
     buildFeatures {
         viewBinding = true  // Volitelně lze přidat viewBinding
     }
+    namespace 'com.example.nicotinetracker'
 }
 
 dependencies {
