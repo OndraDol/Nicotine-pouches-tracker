@@ -1,44 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">NicotineTracker</string>
-    <string name="spotreba">Spotřeba</string>
-    <string name="statistiky">Statistiky</string>
-    <string name="nastaveni">Nastavení</string>
+    <!-- App Basics -->
+    <string name="app_name">Nicotine Pouch Tracker</string>
+    <string name="app_description">Track and manage your nicotine pouch consumption</string>
 
-    <!-- Texty pro Spotřeba fragment -->
-    <string name="add_pouch_title">Zaznamenej spotřebu sáčku</string>
-    <string name="today_count">Dnes: %1$d sáčků</string>
-    <string name="remaining_count">Zbývá: %1$d sáčků z %2$d</string>
-    <string name="add_pouch_button">+</string>
-    <string name="note_hint">Poznámka (nepovinné)</string>
-    <string name="pouch_added">Sáček zaznamenán</string>
+    <!-- Main Screen -->
+    <string name="daily_limit">Daily Limit</string>
+    <string name="current_consumption">Current Consumption</string>
+    <string name="add_pouch">Add Pouch</string>
+    <string name="history">History</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
 
-    <!-- Texty pro Statistiky fragment -->
-    <string name="stats_title">Statistiky spotřeby</string>
-    <string name="summary_title">Souhrn</string>
-    <string name="today_total">Dnes:</string>
-    <string name="week_total">Tento týden:</string>
-    <string name="month_total">Tento měsíc:</string>
-    <string name="daily_average">Denní průměr:</string>
-    <string name="history_title">Poslední aktivita</string>
-    <string name="no_note">Bez poznámky</string>
-    <string name="pouch_count">%1$d sáčků</string>
+    <!-- Notifications -->
+    <string name="limit_exceeded_title">Daily Limit Exceeded</string>
+    <string name="limit_exceeded_message">You have consumed %1$d pouches out of the %2$d allowed</string>
+    <string name="approaching_limit_title">Approaching Daily Limit</string>
+    <string name="approaching_limit_message">Only %1$d pouches left from your daily limit of %2$d</string>
 
-    <!-- Texty pro Nastavení fragment -->
-    <string name="settings_title">Nastavení aplikace</string>
-    <string name="daily_limit_title">Denní limit sáčků</string>
-    <string name="daily_limit_desc">Maximální počet sáčků, který chceš denně spotřebovat</string>
-    <string name="notification_title">Upozornění</string>
-    <string name="notification_desc">Upozornit, když se blížím k limitu</string>
-    <string name="theme_title">Motiv aplikace</string>
-    <string name="theme_desc">Zvolit světlý nebo tmavý motiv</string>
-    <string name="theme_light">Světlý</string>
-    <string name="theme_dark">Tmavý</string>
-    <string name="theme_system">Podle systému</string>
-    <string name="save_settings">Uložit</string>
+    <!-- Achievements -->
+    <string name="achievements">Achievements</string>
+    <string name="consistency_beginner_name">Consistency Starter</string>
+    <string name="consistency_beginner_desc">First 7 days of tracking</string>
+    <string name="reduction_starter_name">First Steps to Reduction</string>
+    <string name="reduction_starter_desc">Reduce consumption by 10%</string>
 
-    <!-- Notifikace -->
-    <string name="notification_channel_name">Upozornění na limit</string>
-    <string name="notification_channel_desc">Upozornění, když se blížíš k dennímu limitu sáčků</string>
-    <string name="notification_limit_title">Blížíš se k dennímu limitu</string>
-    <string name="notification_limit_text">Dnes ti zbývá už jen %1$d sáčků!</string>
+    <!-- Language Selection -->
+    <string name="language_settings">Language Settings</string>
+    <string name="select_language">Select Language</string>
+    <string name="language_english">English</string>
+    <string name="language_czech">Czech</string>
 </resources>
